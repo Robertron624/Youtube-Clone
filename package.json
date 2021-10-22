@@ -1,0 +1,28 @@
+{
+  "name": "yt-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "optionalDependencies": {},
+  "dependencies": {
+    "@reach/router": "^1.3.4",
+    "axios": "^0.21.1",
+    "javascript-time-ago": "^2.3.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  }
+}
